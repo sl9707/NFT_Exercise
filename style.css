@@ -1,0 +1,55 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background-color:hsl(216, 50%, 16%);
+}
+#nftImg{
+    border-radius: 8px;
+    width: 302px;
+    display: block;
+    margin: auto;
+}
+.equi{
+    width: 302px;
+    color: white;
+    text-decoration: none;
+}
+.our{
+    width: 302px;
+    color: hsl(215, 51%, 70%);
+    margin-left:24px;
+}
+.spec{
+    width: 302px;
+    margin: auto;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 51%, 70%);
+    float: right;
+}   
+.create{
+    color: white;
+    display: block;
+    margin: 24px;
+}
+#creator{
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+    
+}
+
+.equi:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#creator:hover{
+    color: hsl(178, 100%, 50%);
+}
