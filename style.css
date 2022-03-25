@@ -4,46 +4,73 @@ body{
 }
 .card{
     width: 350px;
-    height: 596px;
+    height: 572px;
     border-radius: 15px;
     background-color:hsl(216, 50%, 16%);
+    padding-top: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #nftImg{
     border-radius: 8px;
     width: 302px;
-    display: block;
-    margin: auto;
+    margin:0px;
 }
 .equi{
-    width: 302px;
     color: white;
     text-decoration: none;
+    display: block;
+    margin: 24px 24px 0 24px;
+    
 }
 .our{
-    width: 302px;
     color: hsl(215, 51%, 70%);
-    margin-left:24px;
+    margin: 14px 24px 26px 24px;
 }
 .spec{
-    width: 302px;
-    margin: auto;
+    margin:  0px 24px;
+    display: block;
 }
-.eth{
+#eth{
+    position: relative;
+    top: 1px;
+}
+.ethe{
     color: hsl(178, 100%, 50%);
+    margin-left: 5px;
 }
 .days{
     color: hsl(215, 51%, 70%);
     float: right;
-}   
+}
+#clock{
+    position: relative;
+    left: 115px;
+}
+hr{
+    margin: 23px 24px 16px;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none
+} 
 .create{
     color: white;
-    display: block;
-    margin: 24px;
+    margin-left: 16px;
+    
 }
 #creator{
     color: hsl(215, 51%, 70%);
     text-decoration: none;
-    
+}
+#avatar{
+    width: 33px;
+}
+.avatars{
+    display: flex;
+    align-items: center;
+    margin: 0 24px 38px ;
 }
 
 .equi:hover{
@@ -52,4 +79,14 @@ body{
 
 #creator:hover{
     color: hsl(178, 100%, 50%);
+}
+#nftImg:hover{
+    opacity: 50%;
+}
+.nft{
+    background-color: hsl(178, 100%, 50%);
+    width: 302px;
+    height: 302px;
+    margin:0 24px;
+    border-radius: 8px;
 }
